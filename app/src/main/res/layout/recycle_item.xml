@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_measure_80dp"
+        android:layout_margin="@dimen/common_measure_10dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_appname"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/common_measure_28sp"
+            android:text="今日头条"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_measure_50dp"
+        android:layout_margin="@dimen/common_measure_10dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="GPRS上传:"
+            android:gravity="center"
+            android:textSize="@dimen/common_measure_28sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_gprs_up"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="10M"
+            android:gravity="center"
+            android:textSize="@dimen/common_measure_28sp"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="GPRS下载:"
+            android:gravity="center"
+            android:textSize="@dimen/common_measure_28sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_gprs_down"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="10M"
+            android:textSize="@dimen/common_measure_28sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_measure_50dp"
+        android:layout_margin="@dimen/common_measure_10dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="wifi上传:"
+            android:gravity="center"
+            android:textSize="@dimen/common_measure_28sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_wifi_up"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="10M"
+            android:gravity="center"
+            android:textSize="@dimen/common_measure_28sp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="wifi下载:"
+            android:gravity="center"
+            android:textSize="@dimen/common_measure_28sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_wifi_down"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="10M"
+            android:textSize="@dimen/common_measure_28sp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

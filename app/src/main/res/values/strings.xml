@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">trafficemvp</string>
+    <string name="traffic_confirm">开启流量使用情况访问权限</string>
+    <string name="traffic_content">安全助手必须获得Android的流量使用情况访问权限,才能计算您的移动数据流量消耗</string>
+    <string name="confirm">确定</string>
+    <string name="cancle">取消</string>
+</resources>
